@@ -122,7 +122,9 @@ A project **built from scratch by a single developer**, end to end:
         - 🌐 [mandato365.com.br](https://www.mandato365.com.br)
         - - 💼 [LinkedIn](https://www.linkedin.com/in/YOUR-PROFILE)
           - - 📧 caiobritobandeira@hotmail.com
-           
-            - ---
 
+
+> 🌐 **A note on language:** the platform's interface is in **Portuguese** because it was built for Brazilian politicians and their teams. The codebase is fully localizable — it can be adapted and translated to any other language and political context.
+           
+      
             <sub>© 2026 Mandato365 · Data-driven political intelligence · Proprietary code.</sub>
