@@ -1,127 +1,128 @@
 # Mandato365 — Political Intelligence Platform
 
-> **Plataforma SaaS de inteligência política em produção, construída do zero por um desenvolvedor solo.**
-> Transforma dados públicos (eleitorais, parlamentares, demográficos e digitais) em decisões estratégicas — com IA, em minutos.
+> **A SaaS political intelligence platform running in production, built from scratch by a solo developer.**
+> > It turns public data (electoral, legislative, demographic, and digital) into strategic decisions — with AI, in minutes.
+> >
+> > 🌐 **Live platform:** [mandato365.com.br](https://www.mandato365.com.br)
+> > 🎥 **Demo video:** [watch on YouTube](https://youtu.be/IVAE4H_5Yfo)
+> > 🏛️ **Status:** In production, actively used by a real parliamentary office and a political party.
+> >
+> > > ⚠️ **About this repository:** this is a **public showcase**. The source code is **proprietary and private**, as this is a commercial product in operation, with real clients and custom data pipelines. Here you'll find the product overview, features, architecture, and stack — everything you need to understand what was built, without exposing the implementation. For a live technical demo or a conversation about the code, get in touch.
+> > >
+> > > ---
+> > >
+> > > ## 🎯 The problem
+> > >
+> > > Parliamentary offices and campaigns drown in data scattered across dozens of sources — electoral records, congress, public spending portals, census (IBGE), social media — and lack the time or tools to turn it into decisions. Mandato365 bridges that gap: **from raw data to strategy, automatically.**
+> > >
+> > > ---
+> > >
+> > > ## ⚙️ Features
+> > >
+> > > ### 📰 AI news clipping
+> > > Automatically monitors all media coverage of a politician and their party. Each story is classified by **sentiment (positive / negative / neutral)** and gets an **AI-generated summary**.
+> > > **Why it matters:** what used to take hours of manual reading every day now arrives ready, with a real-time read on public image.
+> > >
+> > > <img width="1488" height="1057" alt="8d2d6db3-e22f-4098-958b-4182313999a9" src="https://github.com/user-attachments/assets/a9fc8cd8-f1a3-49fb-9404-4b64586f583d" />
+### 📊 Social media analytics (Instagram, TikTok & Twitter/X)
+Tracks post performance, monitors opponents, and identifies viral content across multiple platforms.
+**Why it matters:** elections are also won online — and what gets measured gets improved.
+> > > <img width="1448" height="1086" alt="2640adab-3c13-4be2-82aa-8f6ac6f42c70" src="https://github.com/user-attachments/assets/73b06764-4673-4a2e-b7d5-0644648f10be" />
+> > > <img width="1448" height="1086" alt="50ee5b15-f53b-4d53-a673-403e0d528926" src="https://github.com/user-attachments/assets/fe08017a-3c85-4846-b003-399888139ab0" />
+> > > <img width="1448" height="1086" alt="73de4f6e-ce22-46c0-a7c4-eb4c905088c4" src="https://github.com/user-attachments/assets/5c4eaa50-c222-42ed-a164-9da443f9fed4" />
+> > > <img width="1448" height="1086" alt="4fb4cd81-aa93-4db9-ab3f-a54743aa79bb" src="https://github.com/user-attachments/assets/db25c4cf-ee62-4bca-bb07-2874c7dd6e26" />
+> > > <img width="1448" height="1086" alt="f11a586e-c09f-407a-a480-7872b2ed458c" src="https://github.com/user-attachments/assets/c5feb09b-4bed-45b0-a976-12a04962fb9f" />
 
-🌐 **Live, teste real com deputado real:** https://www.mandato365.com.br](https://youtu.be/IVAE4H_5Yfo
-🏛️ **Status:** Em produção, com gabinete parlamentar e partido político usando ativamente.
 
-> ⚠️ **Sobre este repositório:** este é um **showcase público**. O código-fonte é **proprietário e privado**, por se tratar de um produto comercial em operação, com clientes reais e pipelines de dados próprios. Aqui você encontra a visão geral do produto, as funcionalidades, a arquitetura e a stack — tudo que importa pra entender o que foi construído, sem expor a implementação. Para uma demonstração técnica ao vivo ou conversa sobre o código, entre em contato.
+
+### 🧠 Post sentiment analysis
+AI that reads engagement and reveals how audiences are reacting to published content.
+**Why it matters:** it separates content that went viral well from content that went viral badly.
+> > > <img width="1448" height="1086" alt="e3b5765a-c6a2-4842-b0f5-d22a811c323d" src="https://github.com/user-attachments/assets/a44a7c35-2735-4f04-9fa2-d7c1ad879236" />
+
+### 🗺️ Smart electoral maps
+Territorial cross-referencing of **votes, public funds, demographics, electoral ROI, and ideology** per municipality.
+**Why it matters:** it answers every campaign's golden question — *"where are my votes, where did funding turn into votes, and where is it worth investing?"*
+> > > <img width="2690" height="584" alt="56710d2a-bf5e-49ab-8e6a-dca969fdc29b" src="https://github.com/user-attachments/assets/66ea76c0-75b4-4e2f-b5db-c3ccc9f98a2c" />
+> > > <img width="1672" height="941" alt="57839e05-ad7c-4334-adb0-2d35d79f7dfa" src="https://github.com/user-attachments/assets/d3e9d43d-d035-4ed7-a4b0-77867d4741af" />
+> > > <img width="1448" height="1086" alt="de2f54fd-e03f-4f9a-894b-405695a89a47" src="https://github.com/user-attachments/assets/7dacda75-c7fb-4d67-a5b1-6f2c62f5b645" />
+
+
+### 💰 Office financial dashboard
+Tracks parliamentary amendments and budgets, cross-referenced with electoral return.
+**Why it matters:** it shows where public resources are producing results and where they're being wasted.
+> > > <img width="1452" height="1083" alt="8691fd10-0fab-41ad-aad9-bb56c55ffe65" src="https://github.com/user-attachments/assets/6e191a5e-0cda-43d1-86af-ad10a9b8a388" />
+
+### ✍️ Parliamentary speech generator
+Generates AI-powered speeches grounded in **real census data (IBGE)**.
+**Why it matters:** speeches backed by concrete regional data, ready in minutes.
+> > > <img width="1672" height="941" alt="b6106095-2bd9-4b9c-8c9b-4adeda2aa46e" src="https://github.com/user-attachments/assets/ff879d92-0a49-4c06-aec7-a03ec930c21e" />
+
+### 💬 WhatsApp assistant
+Strategic alerts, re-election score, and mandate data in real time, straight to your phone.
+**Why it matters:** information reaches the politician wherever they actually are.
 
 ---
 
-## 🎯 O problema
-
-Gabinetes parlamentares e campanhas se afogam em dados espalhados por dezenas de fontes — TSE, Câmara dos Deputados, Portal da Transparência, IBGE, redes sociais — e não têm tempo nem ferramenta para transformar isso em decisão. O Mandato365 faz essa ponte: **do dado bruto à estratégia, automaticamente.**
-
----
-
-## ⚙️ Funcionalidades
-
-### 📰 Clipping de notícias com IA
-Monitora automaticamente tudo que sai na mídia sobre o parlamentar e o partido. Cada notícia é classificada por **sentimento (positivo / negativo / neutro)** e recebe um **resumo gerado por IA**.
-**Por que importa:** o que exigia horas de leitura manual por dia agora chega pronto, com o termômetro da imagem pública em tempo real.
-<img width="1488" height="1057" alt="8d2d6db3-e22f-4098-958b-4182313999a9" src="https://github.com/user-attachments/assets/183f51fc-810c-4f73-a3ea-2cd564abb053" />
-
-### 📊 Analytics de redes sociais (Instagram, TikTok e Twitter/X)
-Acompanha a performance dos posts, monitora adversários e identifica conteúdo viral em múltiplas plataformas.
-**Por que importa:** a eleição também se ganha no digital — e o que se mede, se melhora.
-<img width="1448" height="1086" alt="2640adab-3c13-4be2-82aa-8f6ac6f42c70" src="https://github.com/user-attachments/assets/acd154bf-e4d0-460e-a2fc-197d134ab210" />
-<img width="1448" height="1086" alt="50ee5b15-f53b-4d53-a673-403e0d528926" src="https://github.com/user-attachments/assets/afe757bd-af4e-4020-b3cc-2c05ac00d77f" />
-<img width="1448" height="1086" alt="73de4f6e-ce22-46c0-a7c4-eb4c905088c4" src="https://github.com/user-attachments/assets/bb36a87e-7ea5-4572-9d1a-1044113f5f7f" />
-<img width="1448" height="1086" alt="f11a586e-c09f-407a-a480-7872b2ed458c" src="https://github.com/user-attachments/a<img width="1448" height="1086" alt="4fb4cd81-aa93-4db9-ab3f-a54743aa79bb" src="https://github.com/user-attachments/assets/9675944a-b978-42db-bc1a-cc1f565efb03" />
-ssets/d0bf703a-0fb7-41bd-b593-33861a1f4343" />
-![Uploading 4fb4cd81-aa93-4db9-ab3f-a54743aa79bb.png…]()
-
-### 🧠 Análise de sentimento de posts
-IA que lê o engajamento e revela como o público está reagindo ao conteúdo publicado.
-**Por que importa:** separa o conteúdo que viralizou bem do que viralizou mal.
-<img width="1448" height="1086" alt="e3b5765a-c6a2-4842-b0f5-d22a811c323d" src="https://github.com/user-attachments/assets/45cf20fc-e425-46e5-b5c9-d121e7818876" />
-
-### 🗺️ Mapas eleitorais inteligentes
-Cruzamento territorial de **votos, verbas, demografia, ROI eleitoral e ideologia** por município.
-**Por que importa:** responde a pergunta de ouro de toda campanha — *"onde está meu voto, onde a verba virou voto, e onde vale a pena investir?"*
-<img width="2690" height="584" alt="56710d2a-bf5e-49ab-8e6a-dca969fdc29b" src="https://github.com/user-attachments/assets/9e7acf9b-2c77-47c6-970b-7e31cc160870" />
-<img width="1672" height="941" alt="57839e05-ad7c-4334-adb0-2d35d79f7dfa" src="https://github.com/user-attachments/assets/fb0f0fe8-0e9d-49ac-bf3f-2cff426ea30f" />
-<img width="1448" height="1086" alt="de2f54fd-e03f-4f9a-894b-405695a89a47" src="https://github.com/user-attachments/assets/1f485643-8e73-426a-b6ff-11cc5f76a891" />
-
-
-### 💰 Dashboard financeiro do gabinete
-Acompanha emendas e verbas parlamentares, cruzando com retorno eleitoral.
-**Por que importa:** mostra onde o recurso público está virando resultado e onde está sendo desperdiçado.
-<img width="1452" height="1083" alt="8691fd10-0fab-41ad-aad9-bb56c55ffe65" src="https://github.com/user-attachments/assets/9c3c3c1d-5eb8-4b4a-8a4d-235da50b7a14" />
-
-### ✍️ Criador de discursos parlamentares
-Gera discursos com IA fundamentados em **dados reais do IBGE**.
-**Por que importa:** discurso embasado em dado concreto da região, pronto em minutos.
-<img width="1672" height="941" alt="b6106095-2bd9-4b9c-8c9b-4adeda2aa46e" src="https://github.com/user-attachments/assets/6f995d30-2f1f-4cd9-ba82-e170536278a0" />
-
-
-### 💬 Assistente WhatsApp
-Alertas estratégicos, score de reeleição e dados do mandato em tempo real, direto no celular.
-**Por que importa:** a informação chega onde o político realmente está.
-
----
-
-## 🏗️ Arquitetura (visão geral)
+## 🏗️ Architecture (overview)
 
 ```
 ┌─────────────────────────────────────────────────────────────┐
-│                     FONTES DE DADOS                          │
-│   TSE  ·  Câmara dos Deputados  ·  Portal da Transparência   │
-│   IBGE  ·  Google News  ·  Instagram / TikTok / Twitter      │
+│                       DATA SOURCES                           │
+│   Electoral Records · Congress · Public Spending Portal      │
+│   Census (IBGE) · Google News · Instagram / TikTok / Twitter │
 └─────────────────────────────┬───────────────────────────────┘
-                              │  (pipelines de ingestão)
+                              │  (ingestion pipelines)
                               ▼
 ┌─────────────────────────────────────────────────────────────┐
-│              CAMADA DE PROCESSAMENTO + IA                     │
-│   Normalização · Cruzamento de dados · Análise de IA (LLM)   │
-│   Sentimento · Sumarização · Geração de conteúdo             │
+│              PROCESSING + AI LAYER                           │
+│   Normalization · Data cross-referencing · AI analysis (LLM) │
+│   Sentiment · Summarization · Content generation             │
 └─────────────────────────────┬───────────────────────────────┘
                               │
                               ▼
 ┌─────────────────────────────────────────────────────────────┐
-│                    APLICAÇÃO (Next.js)                       │
-│   Dashboards · Mapas · Relatórios · API · Assistente WhatsApp│
+│                    APPLICATION (Next.js)                     │
+│   Dashboards · Maps · Reports · API · WhatsApp Assistant     │
 └─────────────────────────────────────────────────────────────┘
 ```
 
 ---
 
-## 🛠️ Stack técnica
+## 🛠️ Tech stack
 
-| Camada | Tecnologias |
+| Layer | Technologies |
 |---|---|
 | **Frontend** | Next.js 14, TypeScript, Tailwind CSS, Recharts |
 | **Backend** | Next.js API Routes, Node.js |
-| **Banco de dados** | PostgreSQL |
-| **IA / LLM** | Anthropic Claude (análise de sentimento, sumarização, geração de conteúdo) |
-| **Dados** | TSE, Câmara dos Deputados, Portal da Transparência (CEAP), IBGE, redes sociais |
-| **Infra / Deploy** | Vercel (produção) |
+| **Database** | PostgreSQL |
+| **AI / LLM** | Anthropic Claude (sentiment analysis, summarization, content generation) |
+| **Data** | Electoral records, Congress, Public Spending Portal, Census (IBGE), social media |
+| **Infra / Deploy** | Vercel (production) |
 
 ---
 
-## 👤 Sobre o desenvolvimento
+## 👤 About the development
 
-Projeto **construído do zero por um único desenvolvedor**, de ponta a ponta:
-- Arquitetura e modelagem de dados
-- Desenvolvimento full-stack
-- Integração de IA para análise automatizada e geração de conteúdo
-- Pipelines de ingestão e cruzamento de dados públicos
-- Deploy e operação em produção
+A project **built from scratch by a single developer**, end to end:
+- Architecture and data modeling
+- - Full-stack development
+  - - AI integration for automated analysis and content generation
+    - - Ingestion and cross-referencing pipelines for public data
+      - - Production deployment and operation
+       
+        - This isn't a portfolio prototype — it's a product **running, with real clients.**
+       
+        - ---
 
-Não é um protótipo de portfólio — é um produto **rodando, com clientes reais.**
+        ## 📬 Contact
 
----
+        Interested in a live demo, partnership, or opportunity?
 
-## 📬 Contato
+        - 🌐 [mandato365.com.br](https://www.mandato365.com.br)
+        - - 💼 [LinkedIn](https://www.linkedin.com/in/YOUR-PROFILE)
+          - - 📧 caiobritobandeira@hotmail.com
+           
+            - ---
 
-Interessado em uma demonstração ao vivo, parceria ou oportunidade?
-
-- 🌐 [mandato365.com.br](https://www.mandato365.com.br)
-- 💼 [LinkedIn](https://www.linkedin.com/in/SEU-PERFIL)  <!-- troque pelo seu link -->
-- 📧 seu@email.com  <!-- troque pelo seu email -->
-
----
-
-<sub>© 2026 Mandato365 · Inteligência política baseada em dados · Código proprietário.</sub>
+            <sub>© 2026 Mandato365 · Data-driven political intelligence · Proprietary code.</sub>
